@@ -19,6 +19,11 @@
             return _staffs.FirstOrDefault(staff => staff.Id.Equals(id));
         }
 
-       
+        
+
+        IEnumerable<Staff> IStaffRepository.GetAll()
+        {
+            return _staffs;
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StaffManagement.Models;
+using StaffManagement.ViewModel;
 using System.Text.Json;
 
 namespace StaffManagement.Controllers
@@ -12,17 +13,24 @@ namespace StaffManagement.Controllers
             _staffRepository= staffRepository;
         }
         public ViewResult Index()
-        { 
-            return View();
-        }
-        public string Staff()
         {
-            return _staffRepository.Get(3)?.FirstName;
+            HomeIndexViewModel viewModel = new HomeIndexViewModel()
+            {
+                Staffs = _staffRepository.GetAll()
+            };
+            return View(viewModel); 
         }
 
-        public String Data()
+       public ViewResult Details()
         {
-            return "Data dan salom";
+            HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
+            {
+                Staff = _staffRepository.Get(1),
+                Title = "Staff Details"
+            };
+
+           
+            return View(viewModel);
         }
        
     }

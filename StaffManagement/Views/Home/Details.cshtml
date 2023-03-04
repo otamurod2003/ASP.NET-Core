@@ -1,0 +1,24 @@
+﻿@model StaffManagement.ViewModel.HomeDetailsViewModel
+<Doctype HTML>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>@Model.Title</h1>
+        <table border="1">
+            <th>Staff Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <tr>
+                <td>@Model.Staff.Id</td>
+                <td>@Model.Staff.FirstName @Model.Staff.LastName</td>
+                <td>@Model.Staff.Email</td>
+                <td>@Model.Staff.Department</td>
+            </tr>
+
+        }
+        </table>
+    </body>
+</html>
