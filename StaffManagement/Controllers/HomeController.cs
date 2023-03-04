@@ -5,27 +5,34 @@ using System.Text.Json;
 
 namespace StaffManagement.Controllers
 {
-    public class HomeController: Controller
+    [Route("[controller]")]
+    public class HomeController : Controller
     {
         private readonly IStaffRepository _staffRepository;
         public HomeController(IStaffRepository staffRepository)
         {
-            _staffRepository= staffRepository;
+            _staffRepository = staffRepository;
         }
+
+        [Route("")]
+        [Route("/")]
+        [Route("[action]")]
         public ViewResult Index()
         {
             HomeIndexViewModel viewModel = new HomeIndexViewModel()
             {
-                Staffs = _staffRepository.GetAll()
+                Staffs = _staffRepository.GetAll(),
+                Title= "Staff List"
             };
             return View(viewModel); 
         }
 
-       public ViewResult Details()
+        [Route("[action]/{id?}")]
+       public ViewResult Details(int ? id)
         {
             HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
             {
-                Staff = _staffRepository.Get(1),
+                Staff = _staffRepository.Get(id ?? 1),
                 Title = "Staff Details"
             };
 

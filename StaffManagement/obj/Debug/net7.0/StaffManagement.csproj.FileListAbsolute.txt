@@ -1,5 +1,7 @@
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\appsettings.Development.json
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\appsettings.json
+D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\libman.json
+D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\StaffManagement.staticwebassets.runtime.json
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\StaffManagement.exe
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\StaffManagement.deps.json
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\StaffManagement.runtimeconfig.json
@@ -11,6 +13,8 @@ D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManage
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.AssemblyInfo.cs
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.csproj.CoreCompileInputs.cache
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.RazorAssemblyInfo.cache
+D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.RazorAssemblyInfo.cs
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\staticwebassets\msbuild.StaffManagement.Microsoft.AspNetCore.StaticWebAssets.props
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\staticwebassets\msbuild.build.StaffManagement.props
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.StaffManagement.props
@@ -24,6 +28,3 @@ D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\refint\Staf
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.pdb
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.genruntimeconfig.cache
 D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\ref\StaffManagement.dll
-D:\practicVisualStudio\ASP.NET CORE\StaffManagement\bin\Debug\net7.0\StaffManagement.staticwebassets.runtime.json
-D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.RazorAssemblyInfo.cache
-D:\practicVisualStudio\ASP.NET CORE\StaffManagement\obj\Debug\net7.0\StaffManagement.RazorAssemblyInfo.cs

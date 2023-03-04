@@ -9,17 +9,29 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StaffManagement
 build_property.RootNamespace = StaffManagement
-build_property.ProjectDir = D:\practicVisualStudio\ASP.NET CORE\StaffManagement\
+build_property.ProjectDir = d:\practicVisualStudio\ASP.NET CORE\StaffManagement\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\practicVisualStudio\ASP.NET CORE\StaffManagement
+build_property.MSBuildProjectDirectory = d:\practicVisualStudio\ASP.NET CORE\StaffManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/practicVisualStudio/ASP.NET CORE/StaffManagement/Views/Home/Details.cshtml]
+[d:/practicVisualStudio/ASP.NET CORE/StaffManagement/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/practicVisualStudio/ASP.NET CORE/StaffManagement/Views/Home/Index.cshtml]
+[d:/practicVisualStudio/ASP.NET CORE/StaffManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/practicVisualStudio/ASP.NET CORE/StaffManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/practicVisualStudio/ASP.NET CORE/StaffManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/practicVisualStudio/ASP.NET CORE/StaffManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

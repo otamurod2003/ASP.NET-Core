@@ -8,7 +8,10 @@ builder.Services.AddSingleton<IStaffRepository, MockStaffRepository>();
 var app = builder.Build();
 
 //app.UseStaticFiles();
-app.UseMvcWithDefaultRoute();
-app.MapGet("/", () =>"");
-
+//app.UseMvcWithDefaultRoute();
+/*app.UseMvc(builder =>
+{
+    builder.MapRoute("default", "{controller=home}/{action=index}/{id?}");
+});*/
+app.UseMvc();
 app.Run();

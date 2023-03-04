@@ -1,12 +1,10 @@
-﻿@model StaffManagement.ViewModel.HomeDetailsViewModel
-<Doctype HTML>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <h1>@Model.Title</h1>
-        <table border="1">
+﻿@model HomeDetailsViewModel
+@{
+   
+    ViewBag.Title = "Staff Details";
+}
+        <h1 class="text-center">@Model.Title</h1>
+  <table border="1">
             <th>Staff Id</th>
             <th>Name</th>
             <th>Email</th>
@@ -18,7 +16,11 @@
                 <td>@Model.Staff.Department</td>
             </tr>
 
-        }
-        </table>
-    </body>
-</html>
+
+ </table>
+
+ @section Scripts{
+     <script src="~/scripts/main1.js"></script>
+
+ }
+          
