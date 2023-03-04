@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "FQWjmRLa+vAL364dVTYy5AO7GJtTQjCQnQju7hhC7XM=",
+  "Source": "StaffManagement",
+  "BasePath": "_content/StaffManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StaffManagement\\wwwroot",
+      "Source": "StaffManagement",
+      "ContentRoot": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\",
+      "BasePath": "_content/StaffManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\default.html",
+      "SourceId": "StaffManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\",
+      "BasePath": "_content/StaffManagement",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.html"
+    },
+    {
+      "Identity": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\images\\img1.jpg",
+      "SourceId": "StaffManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\",
+      "BasePath": "_content/StaffManagement",
+      "RelativePath": "images/img1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img1.jpg"
+    },
+    {
+      "Identity": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\images\\img2.jpg",
+      "SourceId": "StaffManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\",
+      "BasePath": "_content/StaffManagement",
+      "RelativePath": "images/img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img2.jpg"
+    }
+  ]
+}

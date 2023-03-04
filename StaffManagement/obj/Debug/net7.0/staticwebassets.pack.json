@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\default.html",
+      "PackagePath": "staticwebassets\\default.html"
+    },
+    {
+      "Id": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\images\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\img1.jpg"
+    },
+    {
+      "Id": "D:\\practicVisualStudio\\ASP.NET CORE\\StaffManagement\\wwwroot\\images\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\img2.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.StaffManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.StaffManagement.props",
+      "PackagePath": "build\\StaffManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.StaffManagement.props",
+      "PackagePath": "buildMultiTargeting\\StaffManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.StaffManagement.props",
+      "PackagePath": "buildTransitive\\StaffManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
