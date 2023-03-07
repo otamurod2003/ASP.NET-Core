@@ -1,16 +1,6 @@
-﻿@model HomeIndexViewModel
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
 @{
-    
-    ViewBag.Title = "Staff List";
+    <h2>View dan salom </h2>
 }
- 
-         @foreach (var staff in Model.Staffs)
-         {
-            <tr>
-                <td>@staff.Id</td>
-                <td>@staff.FirstName @staff.LastName</td>
-                 <td>@staff.Department</td>
-            </tr>     
-         }                  
-               
-   
