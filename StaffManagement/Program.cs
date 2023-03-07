@@ -1,5 +1,10 @@
+using StaffManagement.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddMvc(options => options.EnableEndpointRouting=false);
+
+builder.Services.AddSingleton< IStaffRepository, MockStaffRepository >();
 
 var app = builder.Build();
 
