@@ -17,10 +17,8 @@ namespace StaffManagement.Controllers
             };
             return View(viewModel);
         }
-        public ViewResult Details(int? id)
+        public IActionResult Details(int? id)
         {
-            
-
             HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
             {
                 Staff = _staffRepository.Get(id ?? 1),

@@ -8,10 +8,12 @@
                 <h3>@staff.FirstName @staff.LastName</h3>
             </div>
 
-            <img class="card-img-center" src="~/images/img3.jpg" alt="img">
+            <div class="card-content">
+                <img asp-append-version="true" class="m-5" src="~/images/img3.jpg" alt="img">
+            </div>
 
             <div class="card-footer text-center">
-                <button asp-controller="Home" asp-action="Details" asp-route-Id="@staff.Id" class="btn btn-primary">View</button>
+                <a href="/home/details/@staff.Id" class="btn btn-primary">View</a>
                 <a href="#" class="btn btn-primary">Edit</a>
                 <a href="#" class="btn btn-danger">Delete</a>
             </div>
