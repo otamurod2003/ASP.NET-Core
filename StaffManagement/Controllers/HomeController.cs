@@ -1,27 +1,34 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StaffManagement.Models;
+using StaffManagement.ViewModels;
 
 namespace StaffManagement.Controllers
 {
     public class HomeController : Controller
     {
-        private  IStaffRepository _staffRepository;
-
-        public HomeController()
-        {
-            _staffRepository = new MockStaffRepository();
-        }
-       
-
+        private readonly IStaffRepository _staffRepository;
+        public HomeController(IStaffRepository staffRepository) => _staffRepository = staffRepository;
         public ViewResult Index()
         {
-            return View();
+            HomeIndexViewModel viewModel = new HomeIndexViewModel()
+            {
+                Staffs = _staffRepository.GetAll(),
+                Title = "Staff List",
+            };
+            return View(viewModel);
         }
-
-        public List<Staff> Staff()
+        public ViewResult Details(int? id)
         {
-            return new List<Staff>();
+            
+
+            HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
+            {
+                Staff = _staffRepository.Get(id ?? 1),
+                Title = "Staff details",
+            };
+            return View(viewModel);
         }
+       
     }
 }
  

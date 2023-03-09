@@ -15,7 +15,12 @@
         }
         public Staff Get(int id)
         {
-            return _staffs.FirstOrDefault(staff => staff.Equals(id));
+            return _staffs.FirstOrDefault(staff => staff.Id.Equals(id));
+        }
+
+        public IEnumerable<Staff> GetAll()
+        {
+            return _staffs;
         }
     }
 }
