@@ -35,8 +35,11 @@ namespace StaffManagement.Controllers
 
         [HttpPost]
         public IActionResult Create(Staff staff){
+            if(ModelState.IsValid){
            var newStaff =  _staffRepository.Create(staff);
             return RedirectToAction("details", new{id=newStaff.Id});
+            }else
+            return View();
         }
        
     }
