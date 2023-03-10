@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6Ho/WeobooKFEblC7VpTFeNsoCQpxXV2By95Mo1cd0s=",
+  "Hash": "MdjtooE7CNt4Em7X5F4L4VI9Y6m9yBQ/Xcy0YoiPSTs=",
   "Source": "StaffManagement",
   "BasePath": "_content/StaffManagement",
   "Mode": "Default",
@@ -2278,6 +2278,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\images\\allstaff.png",
+      "SourceId": "StaffManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\",
+      "BasePath": "_content/StaffManagement",
+      "RelativePath": "images/allstaff.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\allstaff.png"
+    },
+    {
       "Identity": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\images\\img1.jpg",
       "SourceId": "StaffManagement",
       "SourceType": "Discovered",
@@ -2327,6 +2344,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\img3.jpg"
+    },
+    {
+      "Identity": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\jQuery\\jquery-3.6.4.min.js",
+      "SourceId": "StaffManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\",
+      "BasePath": "_content/StaffManagement",
+      "RelativePath": "jQuery/jquery-3.6.4.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jQuery\\jquery-3.6.4.min.js"
     }
   ]
 }

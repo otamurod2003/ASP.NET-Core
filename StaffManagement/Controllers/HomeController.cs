@@ -26,6 +26,18 @@ namespace StaffManagement.Controllers
             };
             return View(viewModel);
         }
+
+    [HttpGet]
+        public ViewResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Staff staff){
+           var newStaff =  _staffRepository.Create(staff);
+            return RedirectToAction("details", new{id=newStaff.Id});
+        }
        
     }
 }

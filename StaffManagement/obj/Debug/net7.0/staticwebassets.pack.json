@@ -533,6 +533,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\images\\allstaff.png",
+      "PackagePath": "staticwebassets\\images\\allstaff.png"
+    },
+    {
       "Id": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\images\\img1.jpg",
       "PackagePath": "staticwebassets\\images\\img1.jpg"
     },
@@ -543,6 +547,10 @@
     {
       "Id": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\images\\img3.jpg",
       "PackagePath": "staticwebassets\\images\\img3.jpg"
+    },
+    {
+      "Id": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\wwwroot\\jQuery\\jquery-3.6.4.min.js",
+      "PackagePath": "staticwebassets\\jQuery\\jquery-3.6.4.min.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.StaffManagement.Microsoft.AspNetCore.StaticWebAssets.props",

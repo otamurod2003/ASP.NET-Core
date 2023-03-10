@@ -7,9 +7,9 @@
         {
             _staffs = new List<Staff>()
             {
-                new Staff(){Id=1, FirstName="Otamurod", LastName="Pirnapasov", Email="otamurod@gmail.com", Department="Admin"},
-                new Staff(){Id=2, FirstName="Sulton", LastName="Qo'chqorov", Email="qochqor@gmail.com", Department="Production"},
-                new Staff(){Id=3, FirstName="Qayum", LastName="Mamatov", Email="qayum@gmail.com", Department="Saler"},
+                new Staff(){Id=1, FirstName="Otamurod", LastName="Pirnapasov", Email="otamurod@gmail.com", Department=Departments.Admin},
+                new Staff(){Id=2, FirstName="Sulton", LastName="Qo'chqorov", Email="qochqor@gmail.com", Department=Departments.HR},
+                new Staff(){Id=3, FirstName="Qayum", LastName="Mamatov", Email="qayum@gmail.com", Department=Departments.Production},
 
             };
         }
@@ -21,6 +21,11 @@
         public IEnumerable<Staff> GetAll()
         {
             return _staffs;
+        }
+        public Staff Create(Staff staff){
+            staff.Id = _staffs.Max(s=> s.Id) + 1;
+            _staffs.Add(staff);
+            return staff;
         }
     }
 }

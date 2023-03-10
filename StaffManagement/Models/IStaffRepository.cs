@@ -4,5 +4,7 @@
     {
         Staff Get(int id);
         IEnumerable<Staff> GetAll();
+         
+         Staff Create(Staff staff);
     }
 }
