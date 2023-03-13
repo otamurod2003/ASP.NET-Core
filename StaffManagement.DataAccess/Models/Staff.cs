@@ -17,7 +17,6 @@ namespace StaffManagement.Models
 
          [Required]
          [Display(Name = "Email")]
-         [RegularExpression(@"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$.",ErrorMessage ="Email is not valid")]
         public string Email { get; set; }
 
 

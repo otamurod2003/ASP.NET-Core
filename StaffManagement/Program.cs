@@ -1,10 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using StaffManagement.DataAccess;
 using StaffManagement.Models;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddMvc(options => options.EnableEndpointRouting=false);
 
-builder.Services.AddSingleton< IStaffRepository, MockStaffRepository>();
+builder.Services.AddScoped< IStaffRepository, MockStaffRepository>();
+//builder.Services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("StaffDb"));
 
 
 var app = builder.Build();
