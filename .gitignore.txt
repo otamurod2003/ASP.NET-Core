@@ -1,0 +1,2 @@
+StaffManagement\wwwroot\bootstrap
+StaffManagement\wwwroot\jQuery
