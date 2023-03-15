@@ -26,6 +26,7 @@ namespace StaffManagement.Controllers
                 Title = "Staff details",
             };
             return View(viewModel);
+            
         }
 
     [HttpGet]

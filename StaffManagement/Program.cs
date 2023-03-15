@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
-using StaffManagement.DataAccess;
+using StaffManagement.Data;
 using StaffManagement.Models;
 var builder = WebApplication.CreateBuilder(args);
-
+// Added MVC
 builder.Services.AddMvc(options => options.EnableEndpointRouting=false);
-
-builder.Services.AddScoped< IStaffRepository, MockStaffRepository>();
+//Added new Mapping
+builder.Services.AddSingleton< IStaffRepository, SqlserverStaffRepository>();
 //builder.Services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("StaffDb"));
-
+builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer("server=(localdb)\\MSSqlLocalDb; database=StaffDb; Integrated Security=true;"));
+ 
 
 var app = builder.Build();
 

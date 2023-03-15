@@ -1,7 +1,7 @@
 @model Staff
 @{ViewBag.Title = "Create Staff";}
 <div class="col-md-4">
-    <form id="formStaff" asp-controller="home" asp-action="create" asp method="post">
+    <form  asp-controller="home" asp-action="create" method="post">
         <div>
             <label asp-for="FirstName" class="form-label"></label>
             <input asp-for="FirstName" placeholder="First Name" class="form-control">
@@ -26,7 +26,7 @@
             <span asp-validation-for="Department" class="text-danger"></span>
         </div>
         <div>
-            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-primary" type="submit">Create</button>
         </div>
         <div asp-validation-summary="All" class="text-danger"></div>
     </form>
