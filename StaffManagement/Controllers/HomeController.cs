@@ -8,7 +8,13 @@ namespace StaffManagement.Controllers
     public class HomeController : Controller
     {
         private readonly IStaffRepository _staffRepository;
-        public HomeController(IStaffRepository staffRepository) => _staffRepository = staffRepository;
+        private readonly IWebHostEnvironment webHost;
+
+        public HomeController(IStaffRepository staffRepository, IWebHostEnvironment webHost)
+        {
+            _staffRepository = staffRepository;
+            this.webHost = webHost;
+        }
         public ViewResult Index()
         {
             HomeIndexViewModel viewModel = new HomeIndexViewModel()
@@ -36,13 +42,31 @@ namespace StaffManagement.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Staff staff){
-            if(ModelState.IsValid){
-           var newStaff =  _staffRepository.Create(staff);
+        public IActionResult Create(HomeCreateViewModel staff){
+            string uniqueFileName = string.Empty;
+            if(staff.Photo != null)
+            {
+                string uploadFolder = Path.Combine(webHost.WebRootPath, "images");
+                uniqueFileName = Guid.NewGuid().ToString() +"_" + staff.Photo.FileName;
+                string imageFilePath = Path.Combine(uploadFolder, uniqueFileName);
+                staff.Photo.CopyTo(new FileStream(imageFilePath, FileMode.Create));
+
+            }
+            Staff newStaff = new Staff()
+            {
+                FirstName = staff.FirstName,
+                LastName = staff.LastName,
+                Email = staff.Email,
+                Department = staff.Department,
+                PhotoFilePath = uniqueFileName
+            };
+           
+           newStaff =  _staffRepository.Create(newStaff);
+
             return RedirectToAction("details", new{id=newStaff.Id});
-            }else
-            return View();
-        }
+            }
+        
+        
        
     }
 }

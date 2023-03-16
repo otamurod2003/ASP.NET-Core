@@ -7,13 +7,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="wwwroot\scripts\**" />
-	  <Content Remove="wwwroot\scripts\**" />
-	  <EmbeddedResource Remove="wwwroot\scripts\**" />
-	  <None Remove="wwwroot\scripts\**" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<Folder Include="wwwroot\css\" />
 	</ItemGroup>
 

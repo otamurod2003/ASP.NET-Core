@@ -19,7 +19,9 @@ namespace StaffManagement.DataAccess.ModelBuilderExtensions
                     FirstName = "Otamurod",
                     LastName = "Pirnapasov",
                     Email = "ota@gmail.com",
-                    Department = Departments.Helper
+                    Department = Departments.Helper,
+                  
+
                 },
                  new Staff
                  {
@@ -27,7 +29,8 @@ namespace StaffManagement.DataAccess.ModelBuilderExtensions
                      FirstName = "Hasan",
                      LastName = "Qabulov",
                      Email = "hasan@gmail.com",
-                     Department = Departments.Admin
+                     Department = Departments.Admin,
+                     
                  }
                 );
         }

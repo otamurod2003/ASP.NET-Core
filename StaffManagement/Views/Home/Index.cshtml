@@ -1,15 +1,20 @@
 ﻿@model HomeIndexViewModel;
+@{
+    ViewBag.Title = "Staff List";
+}
 
 <div class="card-deck">
     @foreach (var staff in Model.Staffs)
     {
+        var photoFilePath = "~/images/" + (staff.PhotoFilePath ?? "user.jpg");
+
         <div class="card m-3">
             <div class="card-header">
                 <h3>@staff.FirstName  @staff.LastName</h3>
             </div>
 
             <div class="card-content">
-                <img asp-append-version="true" class="m-5" src="~/images/img3.jpg" alt="img">
+                <img width="200" height="200" asp-append-version="true" class="m-5" src="@photoFilePath" alt="img">
             </div>
 
             <div class="card-footer text-center">

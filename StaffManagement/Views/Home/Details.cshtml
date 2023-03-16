@@ -1,12 +1,15 @@
 ﻿@model HomeDetailsViewModel;
-
+@{ 
+    ViewBag.Title = "Staff Details";
+    var photoFilePath = "~/images/" + (Model.Staff.PhotoFilePath ?? "user.jpg");
+}
 <div class="card">
   <div class="card-header">
     <h2>@Model.Staff.FirstName @Model.Staff.LastName</h2>
   </div>
 
   <div class="card-content">
-    <img class="card-image-center" src="~/images/img3.jpg" alt="Staff image">
+    <img class="card-image-center" src="@photoFilePath" alt="Staff image" asp-append-version="true" width="200px" height="200px" >
     <h3>Staff Id: @Model.Staff.Id</h3>
     <h3>Email: @Model.Staff.Email</h3>
     <h3>Department: @Model.Staff.Department</h3>

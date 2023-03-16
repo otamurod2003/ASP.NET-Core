@@ -23,5 +23,8 @@ namespace StaffManagement.Models
          [Required]
          [Display(Name ="Department")]
         public Departments? Department { get; set; }
+
+        
+        public string? PhotoFilePath{ get; set; }
     }
 }

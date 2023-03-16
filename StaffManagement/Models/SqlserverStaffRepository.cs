@@ -1,12 +1,5 @@
 ﻿using StaffManagement.Data;
-using StaffManagement.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StaffManagement.DataAccess.Models
+namespace StaffManagement.Models
 {
     class SqlserverStaffRepository : IStaffRepository
     {
@@ -44,9 +37,13 @@ namespace StaffManagement.DataAccess.Models
             return dbContext.Staffs;
         }
 
-        public Staff Update(Staff staff)
+        public Staff Update(Staff updateStaff)
         {
-            throw new NotImplementedException();
+            var staff = dbContext.Staffs.Attach(updateStaff);
+            
+            staff.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            dbContext.SaveChanges();
+            return updateStaff;
         }
     }
 }
