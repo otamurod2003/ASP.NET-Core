@@ -11,7 +11,7 @@ namespace StaffManagement.Attributes
             _maxFileSize = maxFileSizeInKB;
             _maxFileSizeKB = _maxFileSize * 1024; 
         }
-        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
 
             var file = value as IFormFile;

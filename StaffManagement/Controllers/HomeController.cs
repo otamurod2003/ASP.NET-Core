@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.AspNetCore.Mvc;
 using StaffManagement.DataAccess;
 using StaffManagement.Models;
 using StaffManagement.ViewModels;
@@ -32,42 +33,91 @@ namespace StaffManagement.Controllers
                 Title = "Staff details",
             };
             return View(viewModel);
-            
+
         }
 
-    [HttpGet]
+        [HttpGet]
         public ViewResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Create(HomeCreateViewModel staff){
-            string uniqueFileName = string.Empty;
-            if(staff.Photo != null)
+        public IActionResult Create(HomeCreateViewModel staff)
+        {
+            if (ModelState.IsValid)
             {
-                string uploadFolder = Path.Combine(webHost.WebRootPath, "images");
-                uniqueFileName = Guid.NewGuid().ToString() +"_" + staff.Photo.FileName;
-                string imageFilePath = Path.Combine(uploadFolder, uniqueFileName);
-                staff.Photo.CopyTo(new FileStream(imageFilePath, FileMode.Create));
-
+                string uniqueFileName = ProcessUploadFile(staff);
+                Staff newStaff = new Staff
+                {
+                    LastName = staff.FirstName,
+                    FirstName = staff.LastName,
+                    Email = staff.Email,
+                    Department = staff.Department,
+                    PhotoFilePath = uniqueFileName
+                };
+                newStaff = _staffRepository.Create(newStaff);
+                return RedirectToAction("details", new { id = newStaff.Id });
             }
-            Staff newStaff = new Staff()
+            return View();
+        }
+
+        
+        [HttpGet]
+        public ViewResult Edit(int? id)
+        {
+            Staff staff = _staffRepository.Get(id ?? 1);
+            HomeEditViewModel editViewModel = new HomeEditViewModel()
             {
+                Id = staff.Id,
                 FirstName = staff.FirstName,
                 LastName = staff.LastName,
                 Email = staff.Email,
                 Department = staff.Department,
-                PhotoFilePath = uniqueFileName
+                ExistingPhotoFilePath = staff.PhotoFilePath,
             };
-           
-           newStaff =  _staffRepository.Create(newStaff);
-
-            return RedirectToAction("details", new{id=newStaff.Id});
+            return View(editViewModel);
+        }
+        [HttpPost]
+        public IActionResult Edit(HomeEditViewModel staff)
+        {
+            if (ModelState.IsValid)
+            {
+                Staff existingStaff = _staffRepository.Get(staff.Id);
+                existingStaff.FirstName = staff.FirstName;
+                existingStaff.LastName = staff.LastName;
+                existingStaff.Email = staff.Email;
+                existingStaff.Department = staff.Department;
+                if (staff.Photo != null)
+                {
+                    if(staff.ExistingPhotoFilePath != null)
+                    {
+                        var filePath = Path.Combine(webHost.WebRootPath,"images",staff.ExistingPhotoFilePath);
+                        System.IO.File.Delete(filePath);
+                    }
+                    existingStaff.PhotoFilePath = ProcessUploadFile(staff);
+                }
+                _staffRepository.Update(existingStaff);
+                return RedirectToAction("index");
             }
-        
-        
-       
+            return View();
+            
+        }
+
+        private string ProcessUploadFile(HomeCreateViewModel staff)
+        {
+            string uniqueFileName = string.Empty;
+            if (staff.Photo != null)
+            {
+                string uploadFolder = Path.Combine(webHost.WebRootPath, "images");
+                uniqueFileName = Guid.NewGuid().ToString() + "_" + staff.Photo.FileName;
+                string imageFilePath = Path.Combine(uploadFolder, uniqueFileName);
+                staff.Photo.CopyTo(new FileStream(imageFilePath, FileMode.Create));
+            }
+
+            return uniqueFileName;
+        }
+
+
     }
 }
- 
