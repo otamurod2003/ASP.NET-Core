@@ -1,2 +1,0 @@
-wwwroot/bootstrap
-wwwroot/Jquery
