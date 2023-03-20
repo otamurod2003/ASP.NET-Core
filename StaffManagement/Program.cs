@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Added MVC
 builder.Services.AddMvc(options => options.EnableEndpointRouting=false);
 //Added new Mapping
-builder.Services.AddTransient< IStaffRepository, SqlserverStaffRepository>();
+builder.Services.Add< IStaffRepository, SqlserverStaffRepository>();
 string? my_connection=builder.Configuration.GetConnectionString("DefaultConnection");
 //builder.Services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("StaffDb"));
 builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(my_connection)); 

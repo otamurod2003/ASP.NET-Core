@@ -11,6 +11,7 @@ builder.Services.AddScoped<ICarRepository, CarRepository>();
 var app = builder.Build();
 app.UseStaticFiles();
 app.UseMvcWithDefaultRoute();
+
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
