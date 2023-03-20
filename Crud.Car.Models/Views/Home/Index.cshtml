@@ -1,0 +1,25 @@
+﻿@model HomeIndexViewModel;
+@ViewBag.Title = "Car List"
+<table>
+    <thead>
+        <tr>
+            <td>Car ID</td>
+            <td>Model</td>
+            <td>Price</td>
+            <td>Date of create</td>
+            <td>Color</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var car in Model.Cars)
+            {
+               <tr>
+                   <td>@car.Id</td>
+                   <td>@car.Model</td>
+                   <td>@car.Price</td>
+                   <td>@car.CreatedDate</td>
+                   <td>@car.Color</td>
+               </tr>
+            }
+    </tbody>
+</table>

@@ -1,7 +1,7 @@
 .btn{
-    width: 75px;
+    width: 30%;
 }
-.card {
+.card, .btn {
     
     float: left;
     

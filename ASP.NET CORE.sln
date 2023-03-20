@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaffManagement", "StaffManagement\StaffManagement.csproj", "{5C39A6EC-6629-4B06-8A35-FABFB6A20890}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud.Car", "Crud.Car.Models\Crud.Car.csproj", "{583EB385-9685-46B5-AB98-C49C08C93E1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5C39A6EC-6629-4B06-8A35-FABFB6A20890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C39A6EC-6629-4B06-8A35-FABFB6A20890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C39A6EC-6629-4B06-8A35-FABFB6A20890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583EB385-9685-46B5-AB98-C49C08C93E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583EB385-9685-46B5-AB98-C49C08C93E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583EB385-9685-46B5-AB98-C49C08C93E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583EB385-9685-46B5-AB98-C49C08C93E1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

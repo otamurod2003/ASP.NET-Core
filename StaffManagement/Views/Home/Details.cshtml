@@ -18,6 +18,9 @@
   <div class="card-footer">
     <a asp-action="index" asp-controller="home" class="btn btn-primary">Back</a>
     <a href="/home/edit/@Model.Staff.Id" class="btn btn-primary">Edit</a>
-    <a href="" class="btn btn-danger">Delete</a>
+    
+    <button hidden href="/home/delete/@Model.Staff.Id" type="submit" class="btn btn-danger" onclick="return confirm('Delete this record ?');">Delete</button>
+
+    
   </div>
 </div>

@@ -17,10 +17,14 @@
                 <img width="200" height="200" asp-append-version="true" class="m-5" src="@photoFilePath" alt="img">
             </div>
 
-            <div class="card-footer text-center">
-                <a href="/home/details/@staff.Id" class="btn btn-primary m-1">View</a>
-                <a href="/home/edit/@staff.Id" class="btn btn-primary m-1">Edit</a>
-                <a href="#" class="btn btn-danger m-1">Delete</a>
+            <div class="card-footer">
+                <a href="/home/details/@staff.Id" class="btn btn-primary m-1 col-4">View</a>
+                <a href="/home/edit/@staff.Id" class="btn btn-primary m-1 col-4">Edit</a>
+                <a href="/home/delete/@staff.Id">
+                    <button  type="submit" class="btn btn-danger" onclick="return confirm('Delete this record ?');">Delete</button>
+
+                </a>
+             
             </div>
         </div>
     }
