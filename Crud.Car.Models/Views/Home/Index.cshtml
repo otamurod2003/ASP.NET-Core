@@ -1,6 +1,9 @@
 ﻿@model HomeIndexViewModel;
-@ViewBag.Title = "Car List"
-<table>
+<h3 class="text-center">@Model.Title</h3>
+<form  asp-action="create"  asp-controller="home">
+    <a href="/home/create" class="btn btn-primary">+ Add new Car</a>
+</form>
+<table class="table">
     <thead>
         <tr>
             <td>Car ID</td>
@@ -11,15 +14,15 @@
         </tr>
     </thead>
     <tbody>
-        @foreach(var car in Model.Cars)
-            {
-               <tr>
-                   <td>@car.Id</td>
-                   <td>@car.Model</td>
-                   <td>@car.Price</td>
-                   <td>@car.CreatedDate</td>
-                   <td>@car.Color</td>
-               </tr>
-            }
+        @foreach (var car in Model.Cars)
+        {
+            <tr>
+                <td>@car.Id</td>
+                <td>@car.Model</td>
+                <td>@car.Price</td>
+                <td>@car.CreatedDate</td>
+                <td>@car.Color</td>
+            </tr>
+        }
     </tbody>
 </table>

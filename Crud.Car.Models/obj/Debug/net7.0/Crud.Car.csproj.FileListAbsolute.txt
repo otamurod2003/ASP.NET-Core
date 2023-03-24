@@ -71,3 +71,11 @@ D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\obj\Debug\net7.0\refint\Crud
 D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\obj\Debug\net7.0\Crud.Car.pdb
 D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\obj\Debug\net7.0\Crud.Car.genruntimeconfig.cache
 D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\obj\Debug\net7.0\ref\Crud.Car.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

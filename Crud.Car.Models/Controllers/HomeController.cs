@@ -26,6 +26,22 @@ namespace Crud.Car.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Create(HomeCreateViewModel car)
+        {
+            CarModel newCar = new CarModel()
+            {
+                Model = car.Model,
+                Price = car.Price,
+                CreatedDate = car.CreatedDate,
+                Color = car.Color,
+            };
+
+            newCar = _carRepo.Create(newCar);
+            return RedirectToAction("Index", new { id = car.Id });
+
+        }
     }
 
 }
