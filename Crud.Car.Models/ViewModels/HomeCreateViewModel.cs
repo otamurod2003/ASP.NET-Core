@@ -13,17 +13,16 @@ namespace Crud.Car.ViewModels
         public string Model { get; set; }
 
         [Required]
-        [MaxLength(60)]
+        [Range(1,100000000000)]
         [Display(Name = "Price")]
         public int Price { get; set; }
 
-        [Required]
-        [MaxLength(60)]
+        [DataType(DataType.Date)]
+        [Required(ErrorMessage = "Release date is not required")]
         [Display(Name = "Created Date")]
         public DateTime CreatedDate { get; set; }
 
-        [Required]
-        [MaxLength(60)]
+        [Required(ErrorMessage="Color is not required...")]
         [Display(Name = "Color")]
         public Colors Color { get; set; }
     }

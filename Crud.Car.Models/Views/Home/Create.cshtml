@@ -1,27 +1,27 @@
 ﻿@model HomeCreateViewModel;
 <div class="row">
-    <form class="form" asp-action="create" asp-controller="home" method="post">
+    <form class="form col-md-8 col-sm-12 col-lg-6" asp-action="create" asp-controller="home" method="post">
         <div class="form-group">
             <label class="form-label" asp-for="Model"></label>
-            <input class="form-control" asp-for="Model">
-            <span asp-validation-for="Model"></span>
+            <input placeholder="Car model..." class="form-control" asp-for="Model">
+            <span asp-validation-for="Model" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label asp-for="Price "></label>
-            <input class="form-control" asp-for="Price">
-            <span asp-validation-for="Price"></span>
+            <input placeholder="Car price..." class="form-control" asp-for="Price">
+            <span asp-validation-for="Price" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label asp-for="CreatedDate"></label>
-            <input class="form-control" asp-for="CreatedDate">
-            <span asp-validation-for="CreatedDate"></span>
+            <input  class="form-control" asp-for="CreatedDate">
+            <span asp-validation-for="CreatedDate" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label asp-for="Color"></label>
             <select asp-for="Color" class="form-control" asp-items="Html.GetEnumSelectList<Colors>();">
                 <option>Please select...</option>
             </select>
-            <span asp-validation-for="Color"></span>
+            <span asp-validation-for="Color" class="text-danger"></span>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary">Create</button>
