@@ -4,7 +4,7 @@
     <a class="btn btn-primary" href="/home/create">+Add new car</a>
 </div>
 
-<div class="search">
+@*<div class="search">
     <span>
         Search by
         <select>
@@ -15,15 +15,15 @@
         </select>
         <input type="search" placeholder="Search..." class="form-control-sm" />
     </span>
-</div>
+</div>*@
 <table id="myTable" class="table table-striped table-bordered table-hover table-dark" >
     <thead>
         <tr>
-            <td>Car Id</td>
-            <td>Model</td>
-            <td>Price, ($)</td>
-            <td>Date of create</td>
-            <td>Color</td>
+            <td style="cursor: pointer">Car Id</td>
+            <td style="cursor: pointer">Model</td>
+            <td style="cursor: pointer">Price, ($)</td>
+            <td style="cursor: pointer">Date of create</td>
+            <td style="cursor: pointer">Color</td>
             <td>Features</td>
         </tr>
     </thead>
@@ -47,6 +47,23 @@
 </table>
 <script>
     $(document).ready(function () {
-        $(#myTable).DataTables();
+        $('#myTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true,
+            "searching": true,
+            "buttons": [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ],
+            "language": {
+                "paginate": {
+                    "first": "<button class='btn-pagination'>First</button>",
+                    "last": "<button class='btn-pagination'>Last</button>",
+                    "next": "<button class='btn-pagination'>Next</button>",
+                    "previous": "<button class='btn-pagination'>Previous</button>"
+                }
+            },
+            "dom": '<"top"lf><"middle"rt><"center"p>'
+        });
     });
 </script>

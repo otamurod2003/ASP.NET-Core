@@ -537,6 +537,10 @@
       "PackagePath": "staticwebassets\\images\\car.png"
     },
     {
+      "Id": "D:\\practicVisualStudio\\ASP.NET Core\\Crud.Car.Models\\wwwroot\\jQuery\\Jquery.DataTables.min.js",
+      "PackagePath": "staticwebassets\\jQuery\\Jquery.DataTables.min.js"
+    },
+    {
       "Id": "D:\\practicVisualStudio\\ASP.NET Core\\Crud.Car.Models\\wwwroot\\jQuery\\jquery-3.6.4.min.js",
       "PackagePath": "staticwebassets\\jQuery\\jquery-3.6.4.min.js"
     },

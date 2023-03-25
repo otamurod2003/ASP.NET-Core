@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J6OZ3WUgpbG8MVYc4GfPBuXpEYpi7N5/kpMuBsVIeII=",
+  "Hash": "igVfcAUYGzo/Y3F8dp+uTrAep0gANzOsaztRV/MvyYc=",
   "Source": "Crud.Car",
   "BasePath": "_content/Crud.Car",
   "Mode": "Default",
@@ -2293,6 +2293,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\car.png"
+    },
+    {
+      "Identity": "D:\\practicVisualStudio\\ASP.NET Core\\Crud.Car.Models\\wwwroot\\jQuery\\Jquery.DataTables.min.js",
+      "SourceId": "Crud.Car",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\practicVisualStudio\\ASP.NET Core\\Crud.Car.Models\\wwwroot\\",
+      "BasePath": "_content/Crud.Car",
+      "RelativePath": "jQuery/Jquery.DataTables.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jQuery\\Jquery.DataTables.min.js"
     },
     {
       "Identity": "D:\\practicVisualStudio\\ASP.NET Core\\Crud.Car.Models\\wwwroot\\jQuery\\jquery-3.6.4.min.js",

@@ -17,6 +17,7 @@ namespace Crud.Car.Models
 
         CarModel ICarRepository.Delete(int id)
         {
+
             CarModel? car = _context.Cars.Find(id);
             _context.Cars.Remove(car);
             _context.SaveChanges();

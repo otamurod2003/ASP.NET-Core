@@ -90,6 +90,16 @@ namespace Crud.Car.Controllers
             return View();
 
         }
+        public IActionResult Delete(int id)
+        {
+            if(ModelState.IsValid)
+            {
+                _carRepo.Delete(id);
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Details");
+        }
     }
+
 
 }
