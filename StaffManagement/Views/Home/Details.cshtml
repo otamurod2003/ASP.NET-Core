@@ -16,10 +16,10 @@
 
   </div>
   <div class="card-footer">
-    <a asp-action="index" asp-controller="home" class="btn btn-primary">Back</a>
-    <a href="/home/edit/@Model.Staff.Id" class="btn btn-primary">Edit</a>
+    <a asp-action="index" asp-controller="home" class="btn btn-primary m-1">Back</a>
+    <a href="/home/edit/@Model.Staff.Id" class="btn btn-primary m-1">Edit</a>
+    <a class="btn btn-danger m-1" asp-controller="home" asp-action="delete" asp-route-Id="@Model.Staff.Id" onclick="return confirm('Delete this record ?');">Delete</a>
     
-    <button hidden href="/home/delete/@Model.Staff.Id" type="submit" class="btn btn-danger" onclick="return confirm('Delete this record ?');">Delete</button>
 
     
   </div>

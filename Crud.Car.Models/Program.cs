@@ -6,7 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMvc(o => o.EnableEndpointRouting = false);
 
 var connection = builder.Configuration.GetConnectionString("MyConnection");
-builder.Services.AddDbContext<CarDbContext>(o => o.UseSqlServer(connection));
+//builder.Services.AddDbContext<CarDbContext>(o => o.UseSqlServer(connection));
+builder.Services.AddDbContext<CarDbContext>(options => options.UseInMemoryDatabase("CarDb"));
 builder.Services.AddScoped<ICarRepository, CarRepository>();
 var app = builder.Build();
 app.UseStaticFiles();

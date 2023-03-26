@@ -71,3 +71,12 @@ D:\practicVisualStudio\ASP.NET Core\StaffManagement\obj\Debug\net7.0\refint\Staf
 D:\practicVisualStudio\ASP.NET Core\StaffManagement\obj\Debug\net7.0\StaffManagement.pdb
 D:\practicVisualStudio\ASP.NET Core\StaffManagement\obj\Debug\net7.0\StaffManagement.genruntimeconfig.cache
 D:\practicVisualStudio\ASP.NET Core\StaffManagement\obj\Debug\net7.0\ref\StaffManagement.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\practicVisualStudio\ASP.NET Core\StaffManagement\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll

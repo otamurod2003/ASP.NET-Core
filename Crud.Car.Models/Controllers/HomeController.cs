@@ -39,8 +39,8 @@ namespace Crud.Car.Controllers
                     CreatedDate = car.CreatedDate,
                     Color = car.Color,
                 };
-                newCar = _carRepo.Create(newCar);
-                return RedirectToAction("Index", new { Id = car.Id });
+               newCar = _carRepo.Create(newCar);
+                return RedirectToAction("index", new { Id = car.Id });
             }
             else
             {
@@ -48,30 +48,46 @@ namespace Crud.Car.Controllers
             }
         }
         [HttpGet]
-        public ViewResult Details(int? id)
+        public ViewResult Details(int id)
         {
-            HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
+
+            CarModel car = _carRepo.Get(id);
+            if (car is not null)
             {
-                Car = _carRepo.Get(id ?? 1),
-                Title = "Car details"
-            };
-            return View(viewModel);
+                HomeDetailsViewModel viewModel = new HomeDetailsViewModel()
+                {
+                    Car = car,
+                    Title = "Car details"
+                };
+                return View(viewModel);
+            }
+            else
+            {
+                return CarNotFound(id);
+            }
+
         }
 
         [HttpGet]
         public ViewResult Edit(int id)
         {
             CarModel car = _carRepo.Get(id);
-            HomeEditViewModel viewModel = new HomeEditViewModel()
+            if (car is not null)
             {
-                Id = car.Id,
-                Model = car.Model,
-                Price = car.Price,
-                CreatedDate = car.CreatedDate,
-                Color = car.Color,
 
-            };
-            return View(viewModel);
+
+                HomeEditViewModel viewModel = new HomeEditViewModel()
+                {
+                    Id = car.Id,
+                    Model = car.Model,
+                    Price = car.Price,
+                    CreatedDate = car.CreatedDate,
+                    Color = car.Color,
+
+                };
+                return View(viewModel);
+            }
+            else { return CarNotFound(id); }
         }
         [HttpPost]
         public IActionResult Edit(HomeEditViewModel car)
@@ -92,12 +108,18 @@ namespace Crud.Car.Controllers
         }
         public IActionResult Delete(int id)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _carRepo.Delete(id);
                 return RedirectToAction("Index");
             }
             return RedirectToAction("Details");
+        }
+
+        public ViewResult CarNotFound(int id)
+        {
+            Response.StatusCode = 404;
+            return View("CarNotFound", id);
         }
     }
 

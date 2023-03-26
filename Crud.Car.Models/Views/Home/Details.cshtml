@@ -1,0 +1,21 @@
+﻿@model HomeDetailsViewModel;
+<h3>@Model.Title</h3>
+<div class="card col-sm-6 col-md-4 col-lg-4 bg-dark" >
+    <div class="card-header">
+        <h3 class="card-title"> @Model.Car.Model </h3>
+    </div>
+    <div class="card-body">
+        <ul>
+            <li>Price: @Model.Car.Price $</li>
+            <li>Date of create: @Model.Car.CreatedDate</li>
+            <li>Color:  @Model.Car.Color</li>
+        </ul>
+    </div>
+    <div class="card-footer">
+
+        <a class="btn btn-warning" asp-controller="home" asp-action="edit" asp-route-Id="@Model.Car.Id">Update</a>
+        <a class="btn btn-danger"  asp-controller="home" asp-action="delete" asp-route-Id="@Model.Car.Id" onclick="return confirm('Are you sure delete this record ?')">Delete</a>
+        <a class="btn btn-primary"  asp-controller="home" asp-action="index">Cancel</a>
+    </div>
+
+</div>

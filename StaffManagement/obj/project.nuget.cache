@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Rhoy66vAUpOtb0Pf6B6XZ3AtHOWScOxa/y6QSaRVZ1z4yx6rJ8ZxGk0G8nSQNkhxXYHybxQZZoJOAJBZKkuqPQ==",
+  "dgSpecHash": "0rXgagg3LrUQIH0P8m0MGZB/ThIwXXKNd5JZaj78zN4ZBUbaTfmEqzv95sc2GSktceLiY3/psrXzmIXOoBfNWg==",
   "success": true,
   "projectFilePath": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.0\\microsoft.entityframeworkcore.inmemory.7.0.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
