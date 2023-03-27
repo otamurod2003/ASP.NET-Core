@@ -79,3 +79,4 @@ D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.C
 D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
 D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\practicVisualStudio\ASP.NET Core\Crud.Car.Models\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll

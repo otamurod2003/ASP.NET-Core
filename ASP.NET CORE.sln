@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaffManagement", "StaffManagement\StaffManagement.csproj", "{5C39A6EC-6629-4B06-8A35-FABFB6A20890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud.Car", "Crud.Car.Models\Crud.Car.csproj", "{583EB385-9685-46B5-AB98-C49C08C93E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crud.Car", "Crud.Car.Models\Crud.Car.csproj", "{583EB385-9685-46B5-AB98-C49C08C93E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{583EB385-9685-46B5-AB98-C49C08C93E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{583EB385-9685-46B5-AB98-C49C08C93E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{583EB385-9685-46B5-AB98-C49C08C93E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
