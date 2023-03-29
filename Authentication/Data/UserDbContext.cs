@@ -1,0 +1,17 @@
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Security.Principal;
+
+namespace Authentication.Data
+{
+    public class UserDbContext : IdentityDbContext<IdentityUser>
+    {
+        public UserDbContext(DbContextOptions<UserDbContext> options)
+            :base(options)
+        {
+            
+        }
+    }
+}
