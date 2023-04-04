@@ -1,14 +1,14 @@
-﻿@model LatinCryllic;
+﻿
 <h3 class="text-center">Salom. Men matnni kirilldan lotinga va aksincha o'girib beraman !!!</h3>
-<form asp-controller="Home" asp-action="Index" method="post">
-    <textarea asp-for="LatinCryllicProperty" class="text-light"></textarea>
-    <button class="btn btn-primary"></button>
+<form asp-controller="Home" asp-action="Index" method="post" class="col-md-6 col-lg-8 col-sm-8">
+    <textarea name="inputText" id="inputText" class="form-control "></textarea>
+    <button class="btn btn-primary m-2" type="submit">Transliterate</button>
 </form>
 
+<h2>Transliterated text</h2>
 
-<div>
-    @if (Model.LatinCryllicProperty is not null)
-    {
-        <textarea rows="50" asp-for="EnteredText"></textarea>
-    }
-</div>
+@if (ViewBag.Result != null)
+{
+    <h2>Natija:</h2>
+    <p>@ViewBag.Result</p>
+}
