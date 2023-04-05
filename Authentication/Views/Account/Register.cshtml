@@ -1,1 +1,17 @@
-﻿
+﻿@model Authentication.ViewModels.AccountRegisterViewModel
+<form method="post" asp-controller="Account" asp-action="Register">
+    <div class="form-group col-md-8 col-sm-12 col-lg-3">
+
+        <div class="m-2">
+            <label asp-for="Email" class="form-label"></label>
+            <input class="form-control" asp-for="Email" placeholder="Email" />
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+        <div class="m-2">
+            <label asp-for="Password" class="form-label"></label>
+            <input class="form-control" asp-for="Password" placeholder="Password" />
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" disabled>Register</button>
+    </div>
+</form>

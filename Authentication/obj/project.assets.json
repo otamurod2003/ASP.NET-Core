@@ -4315,11 +4315,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\practicVisualStudio\\ASP.NET Core\\Authentication\\Authentication.csproj",
+      "projectUniqueName": "D:\\myPractic\\ASP.NET Core\\Authentication\\Authentication.csproj",
       "projectName": "Authentication",
-      "projectPath": "D:\\practicVisualStudio\\ASP.NET Core\\Authentication\\Authentication.csproj",
+      "projectPath": "D:\\myPractic\\ASP.NET Core\\Authentication\\Authentication.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-      "outputPath": "D:\\practicVisualStudio\\ASP.NET Core\\Authentication\\obj\\",
+      "outputPath": "D:\\myPractic\\ASP.NET Core\\Authentication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",

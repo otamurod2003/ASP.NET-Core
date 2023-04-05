@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMvc(o=> o.EnableEndpointRouting=false);
-builder.Services.AddDbContext<UserDbContext>(q=> q.UseInMemoryDatabase("UserDb"));
+builder.Services.AddDbContext<UserDbContext>(q=> q.UseInMemoryDatabase("User"));
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<UserDbContext>();
 var app = builder.Build();

@@ -533,6 +533,30 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\wwwroot\\lib\\jQuery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery\\jquery.js"
+    },
+    {
+      "Id": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\wwwroot\\lib\\jQuery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\wwwroot\\lib\\jQuery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jQuery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\wwwroot\\lib\\jQuery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\wwwroot\\lib\\jQuery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\wwwroot\\lib\\jQuery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jQuery\\jquery.slim.min.map"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LatinCyrillic.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

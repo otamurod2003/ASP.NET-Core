@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaffManagement", "StaffMan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crud.Car", "Crud.Car.Models\Crud.Car.csproj", "{583EB385-9685-46B5-AB98-C49C08C93E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinCyrillic", "LatinCyrillic\LatinCyrillic.csproj", "{ABB25733-AE5C-428E-A7C5-6D07B959F3A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC9DC036-9DEE-490B-ADF0-4BB2ABDD7D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB25733-AE5C-428E-A7C5-6D07B959F3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB25733-AE5C-428E-A7C5-6D07B959F3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB25733-AE5C-428E-A7C5-6D07B959F3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB25733-AE5C-428E-A7C5-6D07B959F3A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

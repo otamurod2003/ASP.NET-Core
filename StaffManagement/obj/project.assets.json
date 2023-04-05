@@ -9493,11 +9493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj",
+      "projectUniqueName": "D:\\myPractic\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj",
       "projectName": "StaffManagement",
-      "projectPath": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj",
+      "projectPath": "D:\\myPractic\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-      "outputPath": "D:\\practicVisualStudio\\ASP.NET Core\\StaffManagement\\obj\\",
+      "outputPath": "D:\\myPractic\\ASP.NET Core\\StaffManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",

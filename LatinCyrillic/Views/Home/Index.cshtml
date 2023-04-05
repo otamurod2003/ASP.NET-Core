@@ -1,14 +1,38 @@
-﻿
-<h3 class="text-center">Salom. Men matnni kirilldan lotinga va aksincha o'girib beraman !!!</h3>
-<form asp-controller="Home" asp-action="Index" method="post" class="col-md-6 col-lg-8 col-sm-8">
-    <textarea name="inputText" id="inputText" class="form-control "></textarea>
-    <button class="btn btn-primary m-2" type="submit">Transliterate</button>
-</form>
+﻿<h3 class="text-center">This program converts the entered text into Latin if it is Cyrillic, or into Cyrillic if it is Latin.</h3>
+<div class="d-lg-flex  d-sm-block d-md-flex ">
+    <form asp-controller="Home" asp-action="Index" method="post" class=" col-md-6 col-sm-12 col-lg-6">
+        <textarea rows="15" name="inputText" class="form-control " placeholder="Enter text..."></textarea>
+        <button class="btn btn-primary m-2" type="submit">Transliterate</button>
+        <button class="btn btn-danger" type="reset" >Reset</button>
+    </form>
+    <div class="d-flex d-md-flex col-md-6 col-sm-12 col-lg-6">
+        @if (ViewBag.Result != null)
+        {
+            <div class="card bg-light col-md-12 col-sm-12 col-lg-12 ">
+                <div class="card-header d-flex">
+                    <span class="text-dark col-sm-4 col-lg-6 col-md-6 col-xl-3">Result:</span>
+                    <button id="copyBtn" class=" btn btn-outline-dark">Copy </button>
+                </div>
+                <div class="card-body"><h4 id="copyText" class="text-danger">@ViewBag.Result</h4></div>
 
-<h2>Transliterated text</h2>
+            </div>
+        }
+        else
+        {
+            <h4 class="text-danger">There is currently no text to translate...</h4>
+        }
+    </div>
+</div>
 
-@if (ViewBag.Result != null)
-{
-    <h2>Natija:</h2>
-    <p>@ViewBag.Result</p>
-}
+<script>
+    $(document).ready(function () {
+        $('#copyBtn').on("click", function () {
+            let text = $('#copyText').text();
+           
+            navigator.clipboard.writeText(text);
+
+            alert("Copied the clipboard: " + text);
+        });
+    });
+</script>
+
