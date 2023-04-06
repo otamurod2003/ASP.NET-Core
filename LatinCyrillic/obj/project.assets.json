@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\LatinCyrillic.csproj",
+      "projectUniqueName": "D:\\ASP.NET-Core\\LatinCyrillic\\LatinCyrillic.csproj",
       "projectName": "LatinCyrillic",
-      "projectPath": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\LatinCyrillic.csproj",
+      "projectPath": "D:\\ASP.NET-Core\\LatinCyrillic\\LatinCyrillic.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-      "outputPath": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\obj\\",
+      "outputPath": "D:\\ASP.NET-Core\\LatinCyrillic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9,25 +9,25 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LatinCyrillic
 build_property.RootNamespace = LatinCyrillic
-build_property.ProjectDir = D:\myPractic\ASP.NET Core\LatinCyrillic\
+build_property.ProjectDir = D:\ASP.NET-Core\LatinCyrillic\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\myPractic\ASP.NET Core\LatinCyrillic
+build_property.MSBuildProjectDirectory = D:\ASP.NET-Core\LatinCyrillic
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/myPractic/ASP.NET Core/LatinCyrillic/Views/Home/Index.cshtml]
+[D:/ASP.NET-Core/LatinCyrillic/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/myPractic/ASP.NET Core/LatinCyrillic/Views/Shared/_Layout.cshtml]
+[D:/ASP.NET-Core/LatinCyrillic/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/myPractic/ASP.NET Core/LatinCyrillic/Views/_ViewImports.cshtml]
+[D:/ASP.NET-Core/LatinCyrillic/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/myPractic/ASP.NET Core/LatinCyrillic/Views/_ViewStart.cshtml]
+[D:/ASP.NET-Core/LatinCyrillic/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

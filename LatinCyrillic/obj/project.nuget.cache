@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q29OoGqjYThwOetXJbXBZMmhmTVU04iALSuY0mZPB6a/LCvpLfN40RkIq+EbDp/cfeUQWz32Jx0OUK+wP8PXFw==",
+  "dgSpecHash": "fEMru6VHH1uEpLR2yUblnAZNOI+Z+6itqNIv9H9Cwg2I0vuZtcpabq7W54s+MgunjvNeVqIyttsJWQlnJ8Ie+Q==",
   "success": true,
-  "projectFilePath": "D:\\myPractic\\ASP.NET Core\\LatinCyrillic\\LatinCyrillic.csproj",
+  "projectFilePath": "D:\\ASP.NET-Core\\LatinCyrillic\\LatinCyrillic.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

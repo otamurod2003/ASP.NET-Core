@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/X/TdOwF+q04Cum53stlygU6ZEDbtOaJhEVdYnM4Vzory91c4QOtILczfa5sY+lgp4Vt7r2mrhQ1j2g6EpIaw==",
+  "dgSpecHash": "n3YRJwbVQWI2oJNM189930aK2worbH5UJu9yrYNSofpyxtol944/D/ri+8C2hDdz/UGJPDMcDO+NLVnKWyxCHg==",
   "success": true,
-  "projectFilePath": "D:\\myPractic\\ASP.NET Core\\Authentication\\Authentication.csproj",
+  "projectFilePath": "D:\\ASP.NET-Core\\Authentication\\Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Администратор\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

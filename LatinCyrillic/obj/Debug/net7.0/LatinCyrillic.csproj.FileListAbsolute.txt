@@ -28,3 +28,33 @@ D:\myPractic\ASP.NET Core\LatinCyrillic\bin\Debug\net7.0\libman.json
 D:\myPractic\ASP.NET Core\LatinCyrillic\bin\Debug\net7.0\LatinCyrillic.staticwebassets.runtime.json
 D:\myPractic\ASP.NET Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.RazorAssemblyInfo.cache
 D:\myPractic\ASP.NET Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.RazorAssemblyInfo.cs
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\appsettings.Development.json
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\appsettings.json
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\libman.json
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\LatinCyrillic.staticwebassets.runtime.json
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\LatinCyrillic.exe
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\LatinCyrillic.deps.json
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\LatinCyrillic.runtimeconfig.json
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\LatinCyrillic.dll
+D:\ASP.NET-Core\LatinCyrillic\bin\Debug\net7.0\LatinCyrillic.pdb
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.csproj.AssemblyReference.cache
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.AssemblyInfoInputs.cache
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.AssemblyInfo.cs
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.csproj.CoreCompileInputs.cache
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.RazorAssemblyInfo.cache
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.RazorAssemblyInfo.cs
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\staticwebassets\msbuild.LatinCyrillic.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\staticwebassets\msbuild.build.LatinCyrillic.props
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LatinCyrillic.props
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LatinCyrillic.props
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\staticwebassets.build.json
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\staticwebassets.development.json
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\scopedcss\bundle\LatinCyrillic.styles.css
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.dll
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\refint\LatinCyrillic.dll
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.pdb
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\LatinCyrillic.genruntimeconfig.cache
+D:\ASP.NET-Core\LatinCyrillic\obj\Debug\net7.0\ref\LatinCyrillic.dll

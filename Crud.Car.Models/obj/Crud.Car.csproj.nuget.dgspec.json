@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\myPractic\\ASP.NET Core\\Crud.Car.Models\\Crud.Car.csproj": {}
+    "D:\\ASP.NET-Core\\Crud.Car.Models\\Crud.Car.csproj": {}
   },
   "projects": {
-    "D:\\myPractic\\ASP.NET Core\\Crud.Car.Models\\Crud.Car.csproj": {
+    "D:\\ASP.NET-Core\\Crud.Car.Models\\Crud.Car.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\myPractic\\ASP.NET Core\\Crud.Car.Models\\Crud.Car.csproj",
+        "projectUniqueName": "D:\\ASP.NET-Core\\Crud.Car.Models\\Crud.Car.csproj",
         "projectName": "Crud.Car",
-        "projectPath": "D:\\myPractic\\ASP.NET Core\\Crud.Car.Models\\Crud.Car.csproj",
+        "projectPath": "D:\\ASP.NET-Core\\Crud.Car.Models\\Crud.Car.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "D:\\myPractic\\ASP.NET Core\\Crud.Car.Models\\obj\\",
+        "outputPath": "D:\\ASP.NET-Core\\Crud.Car.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\myPractic\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj": {}
+    "D:\\ASP.NET-Core\\StaffManagement\\StaffManagement.csproj": {}
   },
   "projects": {
-    "D:\\myPractic\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj": {
+    "D:\\ASP.NET-Core\\StaffManagement\\StaffManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\myPractic\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj",
+        "projectUniqueName": "D:\\ASP.NET-Core\\StaffManagement\\StaffManagement.csproj",
         "projectName": "StaffManagement",
-        "projectPath": "D:\\myPractic\\ASP.NET Core\\StaffManagement\\StaffManagement.csproj",
+        "projectPath": "D:\\ASP.NET-Core\\StaffManagement\\StaffManagement.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "D:\\myPractic\\ASP.NET Core\\StaffManagement\\obj\\",
+        "outputPath": "D:\\ASP.NET-Core\\StaffManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
